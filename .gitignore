@@ -1,3 +1,48 @@
+# +----------------------------+
+# |     PROJECT STRUCTIRE      |
+# +----------------------------+
+models/*
+!models/.gitkeep
+
+training/models/*
+!training/models/.gitkeep
+training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/*
+!training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/
+!training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/.gitkeep
+!training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/pipeline.config
+!training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/checkpoint
+!training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/ckpt-54.data-00000-of-00001
+!training/models/ear_recognition_ssd_mobilenet_v2_fpnlite/ckpt-54.index
+
+
+training/pretrained_models
+!training/pretrained_models/.gitkeep
+
+training/images/train
+!training/images/train/.gitkeep
+
+training/images/test
+!training/images/test/.gitkeep
+
+training/images/train_masks_rect
+!training/images/train_masks_rect/.gitkeep
+
+training/images/test_masks_rect
+!training/images/test_masks_rect/.gitkeep
+
+!test/images/.gitkeep
+!test/output/.gitkeep
+!test/metrics/.gitkeep
+
+
+# +----------------------------+
+# |         IDE files          |
+# +----------------------------+
+.vscode
+
+# +----------------------------+
+# |           PYTHON           |
+# +----------------------------+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
